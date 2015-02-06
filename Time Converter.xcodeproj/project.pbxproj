@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020E0B6D1A83E73E008E1F59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E0B6C1A83E73E008E1F59 /* AppDelegate.m */; };
+		020E0B6F1A83E73E008E1F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E0B6E1A83E73E008E1F59 /* main.m */; };
+		020E0B711A83E73E008E1F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020E0B701A83E73E008E1F59 /* Images.xcassets */; };
+		020E0B741A83E73E008E1F59 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020E0B721A83E73E008E1F59 /* MainMenu.xib */; };
+		020E0B801A83E73F008E1F59 /* Time_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E0B7F1A83E73F008E1F59 /* Time_ConverterTests.m */; };
+		020E0B961A83ED63008E1F59 /* ConverterWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020E0B951A83ED63008E1F59 /* ConverterWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020E0B7A1A83E73F008E1F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020E0B5E1A83E73E008E1F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020E0B651A83E73E008E1F59;
+			remoteInfo = "Time Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020E0B661A83E73E008E1F59 /* Time Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020E0B6A1A83E73E008E1F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020E0B6B1A83E73E008E1F59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		020E0B6C1A83E73E008E1F59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		020E0B6E1A83E73E008E1F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		020E0B701A83E73E008E1F59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		020E0B731A83E73E008E1F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		020E0B791A83E73F008E1F59 /* Time ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020E0B7E1A83E73F008E1F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020E0B7F1A83E73F008E1F59 /* Time_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_ConverterTests.m; sourceTree = "<group>"; };
+		020E0B951A83ED63008E1F59 /* ConverterWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterWindow.swift; sourceTree = "<group>"; };
+		020E0B9B1A83FC86008E1F59 /* Time Converter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Time Converter-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020E0B631A83E73E008E1F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020E0B761A83E73F008E1F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020E0B5D1A83E73E008E1F59 = {
+			isa = PBXGroup;
+			children = (
+				020E0B681A83E73E008E1F59 /* Time Converter */,
+				020E0B7C1A83E73F008E1F59 /* Time ConverterTests */,
+				020E0B671A83E73E008E1F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020E0B671A83E73E008E1F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020E0B661A83E73E008E1F59 /* Time Converter.app */,
+				020E0B791A83E73F008E1F59 /* Time ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020E0B681A83E73E008E1F59 /* Time Converter */ = {
+			isa = PBXGroup;
+			children = (
+				020E0B6B1A83E73E008E1F59 /* AppDelegate.h */,
+				020E0B6C1A83E73E008E1F59 /* AppDelegate.m */,
+				020E0B951A83ED63008E1F59 /* ConverterWindow.swift */,
+				020E0B701A83E73E008E1F59 /* Images.xcassets */,
+				020E0B721A83E73E008E1F59 /* MainMenu.xib */,
+				020E0B691A83E73E008E1F59 /* Supporting Files */,
+				020E0B9B1A83FC86008E1F59 /* Time Converter-Bridging-Header.h */,
+			);
+			path = "Time Converter";
+			sourceTree = "<group>";
+		};
+		020E0B691A83E73E008E1F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020E0B6A1A83E73E008E1F59 /* Info.plist */,
+				020E0B6E1A83E73E008E1F59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		020E0B7C1A83E73F008E1F59 /* Time ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				020E0B7F1A83E73F008E1F59 /* Time_ConverterTests.m */,
+				020E0B7D1A83E73F008E1F59 /* Supporting Files */,
+			);
+			path = "Time ConverterTests";
+			sourceTree = "<group>";
+		};
+		020E0B7D1A83E73F008E1F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020E0B7E1A83E73F008E1F59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020E0B651A83E73E008E1F59 /* Time Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020E0B831A83E73F008E1F59 /* Build configuration list for PBXNativeTarget "Time Converter" */;
+			buildPhases = (
+				020E0B621A83E73E008E1F59 /* Sources */,
+				020E0B631A83E73E008E1F59 /* Frameworks */,
+				020E0B641A83E73E008E1F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Converter";
+			productName = "Time Converter";
+			productReference = 020E0B661A83E73E008E1F59 /* Time Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		020E0B781A83E73F008E1F59 /* Time ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020E0B861A83E73F008E1F59 /* Build configuration list for PBXNativeTarget "Time ConverterTests" */;
+			buildPhases = (
+				020E0B751A83E73F008E1F59 /* Sources */,
+				020E0B761A83E73F008E1F59 /* Frameworks */,
+				020E0B771A83E73F008E1F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020E0B7B1A83E73F008E1F59 /* PBXTargetDependency */,
+			);
+			name = "Time ConverterTests";
+			productName = "Time ConverterTests";
+			productReference = 020E0B791A83E73F008E1F59 /* Time ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020E0B5E1A83E73E008E1F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pascale Beaulac";
+				TargetAttributes = {
+					020E0B651A83E73E008E1F59 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					020E0B781A83E73F008E1F59 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 020E0B651A83E73E008E1F59;
+					};
+				};
+			};
+			buildConfigurationList = 020E0B611A83E73E008E1F59 /* Build configuration list for PBXProject "Time Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020E0B5D1A83E73E008E1F59;
+			productRefGroup = 020E0B671A83E73E008E1F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020E0B651A83E73E008E1F59 /* Time Converter */,
+				020E0B781A83E73F008E1F59 /* Time ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020E0B641A83E73E008E1F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020E0B711A83E73E008E1F59 /* Images.xcassets in Resources */,
+				020E0B741A83E73E008E1F59 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020E0B771A83E73F008E1F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020E0B621A83E73E008E1F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020E0B6F1A83E73E008E1F59 /* main.m in Sources */,
+				020E0B961A83ED63008E1F59 /* ConverterWindow.swift in Sources */,
+				020E0B6D1A83E73E008E1F59 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020E0B751A83E73F008E1F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020E0B801A83E73F008E1F59 /* Time_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020E0B7B1A83E73F008E1F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020E0B651A83E73E008E1F59 /* Time Converter */;
+			targetProxy = 020E0B7A1A83E73F008E1F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		020E0B721A83E73E008E1F59 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020E0B731A83E73E008E1F59 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020E0B811A83E73F008E1F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		020E0B821A83E73F008E1F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		020E0B841A83E73F008E1F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Time Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Time Converter/Time Converter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		020E0B851A83E73F008E1F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Time Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Time Converter/Time Converter-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		020E0B871A83E73F008E1F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Time ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Converter.app/Contents/MacOS/Time Converter";
+			};
+			name = Debug;
+		};
+		020E0B881A83E73F008E1F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Time ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Converter.app/Contents/MacOS/Time Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020E0B611A83E73E008E1F59 /* Build configuration list for PBXProject "Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020E0B811A83E73F008E1F59 /* Debug */,
+				020E0B821A83E73F008E1F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020E0B831A83E73F008E1F59 /* Build configuration list for PBXNativeTarget "Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020E0B841A83E73F008E1F59 /* Debug */,
+				020E0B851A83E73F008E1F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020E0B861A83E73F008E1F59 /* Build configuration list for PBXNativeTarget "Time ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020E0B871A83E73F008E1F59 /* Debug */,
+				020E0B881A83E73F008E1F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020E0B5E1A83E73E008E1F59 /* Project object */;
+}
