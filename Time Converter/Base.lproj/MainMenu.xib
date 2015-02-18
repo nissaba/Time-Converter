@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6750" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment version="1080" identifier="macosx"/>
         <development version="5100" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6750"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -294,65 +294,46 @@
         <window title="Time Converter" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g" customClass="ConverterWindow" customModule="Time_Converter" customModuleProvider="target">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="429" height="135"/>
+            <rect key="contentRect" x="335" y="390" width="476" height="135"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="429" height="135"/>
+                <rect key="frame" x="0.0" y="0.0" width="476" height="135"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mPy-8S-iqh">
-                        <rect key="frame" x="20" y="59" width="102" height="22"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="QIF-E3-6VG">
-                            <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" id="dt1-TW-q9z"/>
+                        <rect key="frame" x="20" y="59" width="125" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="QIF-E3-6VG">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Cb-Q4-YeE">
-                        <rect key="frame" x="49" y="89" width="37" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="From" id="k1N-Vw-0yR">
+                        <rect key="frame" x="49" y="89" width="67" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="From" id="k1N-Vw-0yR">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TYR-ru-4mT">
-                        <rect key="frame" x="342" y="89" width="20" height="17"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="To" id="htS-Dg-cZt">
+                        <rect key="frame" x="377" y="89" width="32" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="To" id="htS-Dg-cZt">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="P0E-5c-t0e">
-                        <rect key="frame" x="141" y="57" width="149" height="26"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="144" id="PxC-PL-HoP"/>
-                        </constraints>
-                        <popUpButtonCell key="cell" type="push" title="Time -> Decimal" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="dlz-Cf-zRL" id="CJq-A0-tAr">
-                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="menu"/>
-                            <menu key="menu" id="8s1-SZ-qb8">
-                                <items>
-                                    <menuItem title="Time -> Decimal" state="on" id="dlz-Cf-zRL"/>
-                                    <menuItem title="Item 2" id="VOg-5o-iTa"/>
-                                    <menuItem title="Item 3" id="qmc-Gj-KS0"/>
-                                </items>
-                            </menu>
-                        </popUpButtonCell>
-                    </popUpButton>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RYn-pL-YcD">
-                        <rect key="frame" x="307" y="59" width="102" height="22"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="L5B-Zb-xzn">
-                            <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" id="fRd-cP-sUQ"/>
+                        <rect key="frame" x="330" y="59" width="126" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" usesSingleLineMode="YES" id="L5B-Zb-xzn">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="srb-iO-7uB">
-                        <rect key="frame" x="174" y="12" width="82" height="32"/>
+                        <rect key="frame" x="197" y="12" width="82" height="32"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="70" id="6vk-hf-NnB"/>
                         </constraints>
@@ -364,6 +345,22 @@
                             <action selector="convertValuesPressed:" target="QvC-M9-y7g" id="nhN-yR-yXs"/>
                         </connections>
                     </button>
+                    <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="P0E-5c-t0e">
+                        <rect key="frame" x="164" y="57" width="149" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="144" id="PxC-PL-HoP"/>
+                        </constraints>
+                        <popUpButtonCell key="cell" type="push" title="Time -> Decimal" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="dlz-Cf-zRL" id="CJq-A0-tAr">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" id="8s1-SZ-qb8">
+                                <items>
+                                    <menuItem title="Time -> Decimal" state="on" id="dlz-Cf-zRL"/>
+                                    <menuItem title="Decimal - > Time" id="VOg-5o-iTa"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="RYn-pL-YcD" secondAttribute="trailing" constant="20" symbolic="YES" id="1vu-Ua-FtL"/>
@@ -376,7 +373,9 @@
                     <constraint firstItem="8Cb-Q4-YeE" firstAttribute="baseline" secondItem="TYR-ru-4mT" secondAttribute="baseline" id="M9P-jq-8a1"/>
                     <constraint firstItem="P0E-5c-t0e" firstAttribute="leading" secondItem="mPy-8S-iqh" secondAttribute="trailing" constant="21" id="Psm-x8-jI4"/>
                     <constraint firstItem="8Cb-Q4-YeE" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="51" id="THA-72-3Sn"/>
+                    <constraint firstItem="TYR-ru-4mT" firstAttribute="centerX" secondItem="RYn-pL-YcD" secondAttribute="centerX" id="ZZ0-B6-Ax3"/>
                     <constraint firstItem="srb-iO-7uB" firstAttribute="top" secondItem="P0E-5c-t0e" secondAttribute="bottom" constant="20" symbolic="YES" id="aHp-CP-C7y"/>
+                    <constraint firstItem="mPy-8S-iqh" firstAttribute="centerX" secondItem="8Cb-Q4-YeE" secondAttribute="centerX" id="dzZ-4q-X1E"/>
                     <constraint firstItem="P0E-5c-t0e" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="gCF-Ny-sIz"/>
                     <constraint firstItem="mPy-8S-iqh" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="vDB-p5-jtx"/>
                     <constraint firstItem="8Cb-Q4-YeE" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="29" id="x2n-n1-u6b"/>
@@ -387,7 +386,7 @@
                 <outlet property="fromTextFiled" destination="mPy-8S-iqh" id="d9A-dk-qdq"/>
                 <outlet property="toTextField" destination="RYn-pL-YcD" id="fBW-AE-NZA"/>
             </connections>
-            <point key="canvasLocation" x="299.5" y="316.5"/>
+            <point key="canvasLocation" x="323" y="316.5"/>
         </window>
     </objects>
 </document>

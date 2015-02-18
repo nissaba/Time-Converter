@@ -17,12 +17,37 @@ class ConverterWindow: NSWindow {
         let stringValueToConvert = self.fromTextFiled.stringValue;
         let charset = NSCharacterSet(charactersInString:",.:")
         
-        let componenet = stringValueToConvert.componentsSeparatedByCharactersInSet(charset)
-        let minutes = componenet[1]
-        let hrs = componenet[0]
+        let componenent = stringValueToConvert.componentsSeparatedByCharactersInSet(charset)
+        if(componenent.count != 2){
+            self.toTextField.stringValue = "Bad time format"
+            return
+        }
+        let minutes = componenent[1]
+        let hrs = componenent[0]
         
-        NSLog("hrs:%@ min:%@",hrs,minutes)
-        //note
+       let conversionType = self.comboBox.indexOfSelectedItem
+        
+        if(conversionType == 0){
+            if(minutes.toInt()! > 59){
+                self.toTextField.stringValue = "Bad time format"
+                return
+            }
+            var decimalTime: Int = minutes.toInt()!
+            decimalTime =  Int((Double(decimalTime) / 60)*100)
+            self.toTextField.stringValue = hrs + ":" + String(decimalTime)
+        }else{
+            if(minutes.toInt()! > 99){
+                self.toTextField.stringValue = "Bad time format"
+                return
+            }
+            var decimalTime: Int = minutes.toInt()!
+            decimalTime =  Int(Double(decimalTime)/100 * 60)
+            self.toTextField.stringValue = hrs + ":" + String(decimalTime)
+        }
+    }
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.fromTextFiled.becomeFirstResponder()
     }
 }
 	

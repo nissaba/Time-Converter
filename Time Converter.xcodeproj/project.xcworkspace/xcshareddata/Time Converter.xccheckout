@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A394FC74-112F-4394-BC12-74D4E216AD37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Time Converter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67B20D8BC883A8F31EA41AF496C9B5C1DEEE18B7</key>
+		<string>https://github.com/nissaba/Time-Converter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Time Converter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67B20D8BC883A8F31EA41AF496C9B5C1DEEE18B7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nissaba/Time-Converter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67B20D8BC883A8F31EA41AF496C9B5C1DEEE18B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67B20D8BC883A8F31EA41AF496C9B5C1DEEE18B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Time-Converter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
